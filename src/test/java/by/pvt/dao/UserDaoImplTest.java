@@ -4,10 +4,13 @@ import by.pvt.pojo.User;
 import by.pvt.pojo.UserDetails;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.FixMethodOrder;
 import org.junit.Test;
+import org.junit.runners.MethodSorters;
 
 import static org.junit.Assert.assertNotNull;
 
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class UserDaoImplTest {
 
     DaoImpl<User> userDao;
@@ -34,6 +37,13 @@ public class UserDaoImplTest {
         userDao.saveOrUpdate(user);
 
         assertNotNull(user.getId());
+    }
+
+    @Test
+    public void step2_findUser(){
+       User user = userDao.find(1L);
+       assertNotNull(user);
+       assertNotNull(user.getUserDetails());
     }
 
     @After
