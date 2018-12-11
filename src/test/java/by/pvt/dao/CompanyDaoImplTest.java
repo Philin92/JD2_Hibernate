@@ -4,10 +4,13 @@ import by.pvt.pojo.Address;
 import by.pvt.pojo.Company;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.FixMethodOrder;
 import org.junit.Test;
+import org.junit.runners.MethodSorters;
 
 import static org.junit.Assert.*;
 
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class CompanyDaoImplTest {
 
     DaoImpl<Company> companyDao;
@@ -34,7 +37,7 @@ public class CompanyDaoImplTest {
 
     @Test
     public void updateAddress(){
-        Company company = companyDao.load(2L);
+        Company company = companyDao.load(1L);
         //Проверять объкт на null, в company с индексом 2 объект HomeAddress = null, поэтому когда пытаемся изменить ему название города выдаёт ошибку
         /*company.getHomeAddress().setCity("Vitebsk");*/
         company.getLegalAddress().setCity("Vitebsk");

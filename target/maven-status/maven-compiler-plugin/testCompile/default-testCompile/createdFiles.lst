@@ -1,5 +1,6 @@
 by\pvt\pojo\HeadquarterTest.class
 by\pvt\pojo\UserTest.class
+by\pvt\dao\UserDaoImplTest.class
 by\pvt\util\HibernateUtilTest.class
 by\pvt\pojo\AddressTest.class
 by\pvt\pojo\WorkerTest.class
