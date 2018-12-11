@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?><!DOCTYPE hibernate-mapping PUBLIC ""
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="by.pvt.pojo">
+    <class name="Person">
+        <id name="id">
+            <generator class="uuid"/>
+        </id>
+        <discriminator column="type"/>
+        <property name="age"/>
+        <property name="dateOfBirth" type="timestamp"/>
+        <property name="name"/>
+        <property name="secondName"/>
+
+        <list name="title">
+            <key column="id"/>
+            <list-index column="ordnum"/>
+            <element column="title" type="java.lang.String"/>
+        </list>
+
+        <component name="address" class="Address">
+            <property name="city"/>
+            <property name="street"/>
+            <property name="houseNumber"/>
+            <property name="apartmentNumber"/>
+        </component>
+
+        <subclass name="Student">
+            <property name="university"/>
+            <property name="faculty"/>
+            <property name="courseYear"/>
+        </subclass>
+
+        <subclass name="Worker">
+            <property name="companyName"/>
+            <property name="position"/>
+            <property name="salary"/>
+        </subclass>
+
+        <subclass name="Employer">
+            <join table="employer">
+                <key column="id"/>
+                <property name="companyTitle"/>
+                <property name="corporateForNumber"/>
+            </join>
+        </subclass>
+    </class>
+</hibernate-mapping>

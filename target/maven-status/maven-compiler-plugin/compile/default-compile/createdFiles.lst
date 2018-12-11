@@ -1,0 +1,12 @@
+by\pvt\pojo\Student.class
+by\pvt\dao\DaoImpl.class
+by\pvt\pojo\Person.class
+by\pvt\pojo\User.class
+by\pvt\pojo\Worker.class
+by\pvt\pojo\Company.class
+by\pvt\pojo\Headquarter.class
+by\pvt\pojo\UserDetails.class
+by\pvt\pojo\Address.class
+by\pvt\pojo\Branch.class
+by\pvt\util\HibernateUtil.class
+by\pvt\pojo\Employer.class

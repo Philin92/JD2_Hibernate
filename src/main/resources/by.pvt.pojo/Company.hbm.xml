@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?><!DOCTYPE hibernate-mapping PUBLIC ""
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="by.pvt.pojo">
+    <class name="Company">
+        <id name="id">
+            <generator class="increment"/>
+        </id>
+        <property name="companyName"/>
+        <property name="siteUrl"/>
+        <component name="homeAddress" class="Address">
+            <property name="city" />
+            <property name="street" />
+            <property name="houseNumber" />
+            <property name="officeNumber" />
+        </component>
+        <component name="legalAddress" class="Address">
+            <property name="city" column="legalCity"/>
+            <property name="street" column="legalStreet"/>
+            <property name="houseNumber" column="legalHouseNumber"/>
+            <property name="officeNumber" column="legalOfficeNumber"/>
+        </component>
+
+        <joined-subclass name="Branch">
+            <key column="id"/>
+            <property name="branchDirector"/>
+            <property name="branchName"/>
+        </joined-subclass>
+
+        <joined-subclass name="Headquarter">
+            <key column="id"/>
+            <property name="directorName"/>
+            <property name="bankAccount"/>
+        </joined-subclass>
+    </class>
+</hibernate-mapping>
