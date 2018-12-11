@@ -8,7 +8,9 @@ import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class UserDaoImplTest {
@@ -44,6 +46,31 @@ public class UserDaoImplTest {
        User user = userDao.find(1L);
        assertNotNull(user);
        assertNotNull(user.getUserDetails());
+    }
+
+    @Test
+    public void step3_updateUser(){
+
+        User user = userDao.find(1L);
+        user.setFirstName("Vitalik");
+        user.getUserDetails().setEmail("newEmail@gmail.com");
+        userDao.saveOrUpdate(user);
+
+        User user1 = userDao.load(1L);
+        assertEquals("Vitalik",user1.getFirstName());
+        assertEquals("newEmail@gmail.com",user1.getUserDetails().getEmail());
+
+    }
+
+    @Test
+    public void step4_deleteUser(){
+
+        User user = userDao.load(1L);
+        userDao.deleteById(user.getId());
+
+        User user2 = userDao.find(1L);
+
+        assertNull(user2);
     }
 
     @After

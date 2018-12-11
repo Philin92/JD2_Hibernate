@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aade3c80-becc-437c-a0b0-6ea5294e5037" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/by/pvt/dao/UserDaoImplTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/test.hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/test.hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/by/pvt/dao/UserDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/pvt/dao/UserDaoImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/by/pvt/dao/UserDaoImpl.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,30 +43,30 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="6741" />
-          <entry key="txt" value="13" />
-          <entry key="xml" value="670" />
+          <entry key="java" value="7046" />
+          <entry key="txt" value="19" />
+          <entry key="xml" value="673" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6741" />
-          <entry key="PLAIN_TEXT" value="14" />
-          <entry key="XML" value="670" />
+          <entry key="JAVA" value="7046" />
+          <entry key="PLAIN_TEXT" value="20" />
+          <entry key="XML" value="673" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="34" />
-          <entry key="java" value="84" />
-          <entry key="xml" value="32" />
+          <entry key="java" value="85" />
+          <entry key="xml" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="34" />
-          <entry key="JAVA" value="84" />
-          <entry key="XML" value="32" />
+          <entry key="JAVA" value="85" />
+          <entry key="XML" value="33" />
         </counts>
       </usages-collector>
     </session>
@@ -78,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/dao/UserDaoImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="51" column="39" lean-forward="true" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+            <state relative-caret-position="1099">
+              <caret line="68" column="41" lean-forward="true" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -247,11 +245,11 @@
         <option value="$PROJECT_DIR$/src/main/java/by/pvt/pojo/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/pvt/pojo/UserDetails.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/test.hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/by.pvt.pojo/UserDetails.hbm.xml" />
         <option value="$PROJECT_DIR$/src/test/java/by/pvt/pojo/UserTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/by.pvt.pojo/User.hbm.xml" />
         <option value="$PROJECT_DIR$/src/test/java/by/pvt/dao/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/test.hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/test/java/by/pvt/dao/UserDaoImplTest.java" />
       </list>
     </option>
@@ -456,7 +454,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544550197741" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544552428508" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../libraryWithHibernate" />
@@ -497,20 +495,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="CompanyDaoImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hibernate_home" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="by.pvt.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="by.pvt.dao" />
-      <option name="MAIN_CLASS_NAME" value="by.pvt.dao.CompanyDaoImplTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UserDaoImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hibernate_home" />
       <extension name="coverage">
@@ -536,6 +520,22 @@
       <option name="PACKAGE_NAME" value="by.pvt.dao" />
       <option name="MAIN_CLASS_NAME" value="by.pvt.dao.UserDaoImplTest" />
       <option name="METHOD_NAME" value="step2_findUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoImplTest.step3_updareUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate_home" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.pvt.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.pvt.dao" />
+      <option name="MAIN_CLASS_NAME" value="by.pvt.dao.UserDaoImplTest" />
+      <option name="METHOD_NAME" value="step3_updareUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -572,19 +572,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CompanyDaoImplTest" />
       <item itemvalue="JUnit.UserTest.createInstance" />
       <item itemvalue="JUnit.UserTest" />
       <item itemvalue="JUnit.UserDaoImplTest" />
       <item itemvalue="JUnit.UserDaoImplTest.step2_findUser" />
+      <item itemvalue="JUnit.UserDaoImplTest.step3_updareUser" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.UserDaoImplTest" />
+        <item itemvalue="JUnit.UserDaoImplTest.step3_updareUser" />
         <item itemvalue="JUnit.UserDaoImplTest.step2_findUser" />
         <item itemvalue="JUnit.UserTest" />
         <item itemvalue="JUnit.UserTest.createInstance" />
-        <item itemvalue="JUnit.CompanyDaoImplTest" />
       </list>
     </recent_temporary>
   </component>
@@ -601,7 +601,7 @@
       <workItem from="1543829980285" duration="36546000" />
       <workItem from="1544110442811" duration="24408000" />
       <workItem from="1544517941577" duration="6312000" />
-      <workItem from="1544541987587" duration="8665000" />
+      <workItem from="1544541987587" duration="9842000" />
     </task>
     <task id="LOCAL-00001" summary="firstCommit">
       <created>1544548163180</created>
@@ -610,22 +610,17 @@
       <option name="project" value="LOCAL" />
       <updated>1544548163180</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="secondCommit">
+      <created>1544551226252</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544551226252</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CompanyDaoImplTest_updateAddress - 2018.12.11 at 14h 41m 52s.xml">
-      <configuration name="CompanyDaoImplTest.updateAddress" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CompanyDaoImplTest - 2018.12.11 at 18h 27m 12s.xml">
-      <configuration name="CompanyDaoImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserTest_createInstance - 2018.12.11 at 19h 22m 50s.xml">
-      <configuration name="UserTest.createInstance" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserTest_createInstance - 2018.12.11 at 19h 25m 10s.xml">
-      <configuration name="UserTest.createInstance" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserTest - 2018.12.11 at 19h 28m 37s.xml">
       <configuration name="UserTest" configurationId="JUnit" />
     </history-entry>
@@ -644,9 +639,21 @@
     <history-entry file="UserDaoImplTest - 2018.12.11 at 20h 40m 48s.xml">
       <configuration name="UserDaoImplTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserDaoImplTest_step3_updareUser - 2018.12.11 at 21h 03m 36s.xml">
+      <configuration name="UserDaoImplTest.step3_updareUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoImplTest - 2018.12.11 at 21h 07m 22s.xml">
+      <configuration name="UserDaoImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoImplTest - 2018.12.11 at 21h 08m 33s.xml">
+      <configuration name="UserDaoImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoImplTest_step3_updareUser - 2018.12.11 at 21h 10m 52s.xml">
+      <configuration name="UserDaoImplTest.step3_updareUser" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75931000" />
+    <option name="totallyTimeSpent" value="77108000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -661,7 +668,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.24697986" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.24697986" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" sideWeight="0.50070924" side_tool="true" weight="0.22818792" />
       <window_info id="Designer" order="3" />
@@ -705,7 +712,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="firstCommit" />
-    <option name="LAST_COMMIT_MESSAGE" value="firstCommit" />
+    <MESSAGE value="secondCommit" />
+    <option name="LAST_COMMIT_MESSAGE" value="secondCommit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.3.7.Final/hibernate-core-5.3.7.Final.jar!/org/hibernate/internal/SessionImpl.class">
@@ -993,13 +1001,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test.hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="65" lean-forward="true" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/pojo/StudentTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1049,16 +1050,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/dao/CompanyDaoImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207">
-          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1120,10 +1111,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/dao/CompanyDaoImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="40" column="51" lean-forward="true" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test.hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/by/pvt/dao/UserDaoImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="39" lean-forward="true" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+        <state relative-caret-position="1099">
+          <caret line="68" column="41" lean-forward="true" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
