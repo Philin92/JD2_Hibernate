@@ -17,5 +17,8 @@
         <mapping resource="by.pvt.pojo/Company.hbm.xml"/>
         <mapping resource="by.pvt.pojo/User.hbm.xml"/>
         <mapping resource="by.pvt.pojo/UserDetails.hbm.xml"/>
+        <mapping resource="by.pvt.pojo/Employee.hbm.xml"/>
+        <mapping resource="by.pvt.pojo/EmployeeDetails.hbm.xml"/>
+        <mapping resource="by.pvt.pojo/Department.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>
